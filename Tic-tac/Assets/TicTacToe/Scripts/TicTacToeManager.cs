@@ -228,7 +228,6 @@ namespace tic_toe
     {
         if (NumberOfMoves == 9)
         {
-            Debug.LogError("Maximum moves arrived reset");
             ResetButton.SetActive(true);
             NumberOfMoves++;
         }
